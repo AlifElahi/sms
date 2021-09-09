@@ -1,0 +1,32 @@
+{
+  "name": "bigdigi",
+  "version": "1.0.0",
+  "description": "bigdigi backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js --host=0.0.0.0"
+  },
+  "author": "Alif Elahi",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "^3.0.1",
+    "@admin-bro/mongoose": "^1.1.0",
+    "admin-bro": "^3.3.1",
+    "axios": "^0.20.0",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.3",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
